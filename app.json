@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Pocket Taxidermist",
+    "slug": "pocket-taxidermist",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "pocket-taxidermist",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#101418",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.pockettaxidermist.app",
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIRequiresFullScreen": true
+      }
+    },
+    "android": {
+      "package": "com.pockettaxidermist.app",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ]
+  }
+}
